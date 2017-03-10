@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Retail118</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_login">Login</string>
+    <string name="action_welcome">Hi..:)</string>
+
+    <string name="screen1Text">Retail 118 is a great platform for both retailers and sellers to source products in a much convenient manner whereby products can be searched and viewed using both our website and our mobile application with the click of a button. </string>
+
+    <string name="screen2Text">Our platform allows all retailers and suppliers to have a well-documented transaction whereby invoices are generated for each transaction made and full details of the transaction can also be sent directly to ones email.</string>
+
+    <string name="screen3Text">This platform also comes with great retailer and buyer protection policies which are documented in the terms and conditions below. The payment and collection protection policy can also be referred to. </string>
+
+    <string name="screen4Text">Retail 118 operates as online wholesale city that connecting supplier (Factory, distributors, Wholesalers) with buyer (Retailer and Reseller) to perform trading with secure and easy way. For Buyers, benefit of browsing many products with click of a button from mobile and computers.</string>
+
+
+    <string name="screen5Text">- To provide the best ecommerce place to increase productivity and reduce cost in Malaysia.
+- To provide the best E-commerce website for user - sourcing, and costing.
+- Information Technology should lower operation cost, Increase Efficiency.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_title">Sorry !!! No Internet :( :\'(</string>
+    <string name="error_message">Please check the connection</string>
+    <string name="error_ok_button_text">Try Again</string>
+
+    <!-- FACEBOOK-->
+    <string name="facebook_app_id">369994966692768</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- FACEBOOK-->
+
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+    <string name="grid">Grid</string>
+    <string name="cart">Cart</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="settings">SETTINGS</string>
+    <string name="push_notif">Push Notifications</string>
+    <string name="email_notif">Email Notifications</string>
+    <string name="tnc">Terms &amp; Conditions</string>
+    <string name="create_acc">Create Account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forget_pwd">Forgot Password?</string>
+    <string name="sign_up">&lt;u>New here? Sign up&lt;/u></string>
+    <string name="sign_in_fb">Sign in with Facebook</string>
+    <string name="credit_cards">Credit Cards</string>
+    <string name="email1">Email</string>
+    <string name="detail_temp">"Moto 360 stays true to the timeless form of the classic wristwatch. A round ... That's why all the leather used for Moto 360 comes from American leather crafters.
+
+The 203 Series is a comprehensive update of the 200 collection. With many design details drawn from the 302 Series chrongraph, the 203 Series still maintains reference to the engineering dials it was inspired by. The 40mm two-part case features a lugless design and a chamfered bezel."</string>
+    <string name="title_activity_cart">Cart</string>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/aaa"
+              android:background="@color/white"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/product_detail_img"
+                android:scaleType="fitXY" />
+            <Button
+                android:id="@id/fabCart"
+                android:background="@drawable/fab_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-26.0dip"
+                android:layout_marginRight="@dimen/pad_10dp"
+                android:layout_alignTop="@id/as"
+                android:layout_alignParentRight="true"
+                style="@style/btn" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/as"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_10dp"
+                android:layout_below="@id/imageView1">
+
+                <TextView
+                    android:id="@id/lbl1"
+                    android:paddingLeft="@dimen/pad_10dp"
+                    android:paddingTop="@dimen/pad_10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Moto 360 | Uniform Wares"
+                          style="@style/lbl_setting2" />
+                <TextView
+                    android:id="@+id/price"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:paddingLeft="@dimen/pad_10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pad_3dp"
+                    android:text="$399.99" style="@style/lbl_setting2" />
+
+                <LinearLayout
+                    android:background="@drawable/product_detail_button_separator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pad_10dp"
+                    android:layout_marginBottom="@dimen/pad_10dp">
+
+                    <ImageView android:id="@id/btnLike"
+                               android:layout_width="wrap_content"
+                               android:layout_height="fill_parent"
+                               android:src="@drawable/button_like"
+                               android:scaleType="center"
+                               android:layout_weight="1.0" />
+
+                    <ImageView android:id="@id/btnComment"
+                               android:layout_width="wrap_content"
+                               android:layout_height="fill_parent"
+                               android:src="@drawable/button_comment"
+                               android:scaleType="center"
+                               android:layout_weight="1.0" />
+
+                    <ImageView
+                        android:id="@id/btnMore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/button_more"
+                        android:scaleType="center"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView
+                    android:textSize="@dimen/txt_14sp"
+                    android:id="@id/lbl2" android:padding="@dimen/pad_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_temp"
+                          style="@style/lbl_setting2" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@id/ae"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/pad_155dp"
+                android:layout_marginBottom="@dimen/pad_10dp"
+                android:layout_below="@id/as">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@id/pager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center"
+                              android:orientation="horizontal"
+                              android:id="@id/aa"
+                              android:padding="@dimen/pad_10dp"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_alignBottom="@id/pager">
+                    <LinearLayout android:orientation="horizontal"
+                                  android:id="@id/vDots"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

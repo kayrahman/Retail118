@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="btn" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:minWidth">1.0dip</item>
+        <item name="android:minHeight">1.0dip</item>
+    </style>
+
+    <style name="lbl_setting1" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/side_menu_divider</item>
+    </style>
+
+    <style name="lbl_setting2" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:textColor">@color/gray_dk</item>
+    </style>
+
+    <!-- STYLE USED IN CHECKOUT PAGE. -->
+    <style name="card_disable" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:textColor">@color/main_grey_lt</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/pad_10dp</item>
+        <item name="android:drawableLeft">@drawable/credit_card_diabled</item>
+        <item name="android:drawablePadding">@dimen/pad_20dp</item>
+    </style>
+
+    <style name="card_enabled" parent="@style/card_disable">
+        <item name="android:textColor">@color/main_grey_dk1</item>
+        <item name="android:drawableLeft">@drawable/credit_card_enabled</item>
+        <item name="android:drawableRight">@drawable/icon_checked</item>
+    </style>
+
+    <style name="btn_blue" parent="@style/btn">
+        <item name="android:textSize">@dimen/txt_15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/main_color</item>
+        <item name="android:padding">@dimen/pad_10dp</item>
+
+    </style>
+
+
+</resources>
